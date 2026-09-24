@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy &middot; Klippanda Poster</title>
+<style>
+:root { color-scheme: light dark; }
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 32px 20px 80px;
+  font: 16px/1.65 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: #ffffff; color: #16181c;
+}
+.wrap { max-width: 720px; margin: 0 auto; }
+header { border-bottom: 1px solid #e3e5e8; padding-bottom: 18px; margin-bottom: 28px; }
+h1 { font-size: 27px; line-height: 1.25; margin: 0 0 6px; letter-spacing: -0.01em; }
+h2 { font-size: 18px; margin: 34px 0 10px; letter-spacing: -0.005em; }
+h3 { font-size: 15px; margin: 22px 0 6px; }
+p, li { color: #2b2f36; }
+ul { padding-left: 22px; }
+li { margin: 5px 0; }
+.meta { color: #6b7280; font-size: 14px; margin: 0; }
+.lede { font-size: 17px; color: #2b2f36; }
+a { color: #0b62d0; }
+.box {
+  border: 1px solid #e3e5e8; border-left: 3px solid #0b62d0;
+  border-radius: 6px; padding: 14px 16px; margin: 22px 0; background: #f7f9fc;
+}
+.box p { margin: 0; font-size: 15px; }
+table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: 15px; }
+th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid #e3e5e8; vertical-align: top; }
+th { color: #6b7280; font-weight: 600; width: 34%; }
+footer { margin-top: 52px; padding-top: 18px; border-top: 1px solid #e3e5e8; font-size: 14px; color: #6b7280; }
+footer a { margin-right: 14px; }
+@media (prefers-color-scheme: dark) {
+  body { background: #101215; color: #e6e8eb; }
+  p, li { color: #c8ccd2; }
+  h1, h2, h3 { color: #f2f4f6; }
+  header, footer, th, td { border-color: #262a30; }
+  .box { background: #171a1f; border-color: #262a30; border-left-color: #4c8dff; }
+  a { color: #7fb0ff; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Klippanda Poster &middot; Effective 2026-09-24</p>
+</header>
+
+<p class="lede">Klippanda Poster is a private, single-user tool operated by the owner of the @klippanda_uk YouTube channel. It
+publishes the operator's own videos to the operator's own social media accounts.
+It has no user accounts, no sign-up, and it does not collect data about anybody
+other than its operator.</p>
+
+<div class="box">
+  <p><strong>In short:</strong> we run no server and no database in the cloud.
+  Everything Klippanda Poster needs is kept on one private device that only the operator
+  controls, and it is used for one purpose only &mdash; publishing the operator's own
+  content to the operator's own accounts.</p>
+</div>
+
+<h2>1. What information we process</h2>
+
+<h3>Information from TikTok</h3>
+<table>
+  <tr><th>Access and refresh tokens</th>
+      <td>Issued by TikTok when the operator authorises the app. They are what allow
+          the app to upload a video on the operator's behalf.</td></tr>
+  <tr><th>Creator information</th>
+      <td>Retrieved from TikTok's Creator Info endpoint immediately before each post:
+          the account's display name, the visibility options the account allows, and
+          whether comments, Duet or Stitch are disabled for that account. This is used
+          to render an accurate approval screen.</td></tr>
+  <tr><th>Publishing status</th>
+      <td>The status TikTok returns after an upload, so the operator can be told whether
+          the post succeeded.</td></tr>
+</table>
+
+<h3>Information the operator provides</h3>
+<table>
+  <tr><th>The video file</th>
+      <td>The video the operator chooses to publish.</td></tr>
+  <tr><th>The caption and settings</th>
+      <td>The description, hashtags, visibility choice, interaction settings and
+          commercial-content disclosure the operator enters on the approval screen.</td></tr>
+  <tr><th>A messaging identifier</th>
+      <td>The chat identifier of the operator's own private bot conversation, used only
+          to send the approval link and the result message back to the operator.</td></tr>
+</table>
+
+<p>We do not collect names, contact details, location, device identifiers, advertising
+identifiers or analytics of any kind. We do not process information about viewers,
+followers or any other TikTok user.</p>
+
+<h2>2. Why we process it</h2>
+<p>Solely to operate the publishing flow: to show the operator an accurate approval
+screen, to upload the approved video to the operator's own account with the settings
+the operator chose, and to report the result back to the operator. We do not use this
+information for advertising, profiling, training machine-learning models, or any
+purpose unrelated to publishing the operator's own content.</p>
+
+<h2>3. Where it is stored</h2>
+<p>All configuration, including the TikTok tokens, is stored locally on a single
+private device operated by the owner of the @klippanda_uk YouTube channel. Video files are transient: they exist on that
+device only for as long as the upload takes and are not archived. We operate no
+public server, no cloud database and no backup service, and no third party is given
+access to this data.</p>
+
+<h2>4. Who we share it with</h2>
+<p>We do not sell, rent, trade or share this information. Data leaves the device only
+in the two directions the operator explicitly asks for:</p>
+<ul>
+  <li><strong>To TikTok</strong>, to publish the approved video, in accordance with the
+      TikTok Content Posting API.</li>
+  <li><strong>To the messaging service</strong> the operator uses to send the video and
+      receive the approval link.</li>
+</ul>
+<p>Those services process the data under their own privacy policies.</p>
+
+<h2>5. How long we keep it</h2>
+<ul>
+  <li><strong>Tokens</strong> are kept for as long as the integration is in use, and
+      stop working as soon as the operator revokes access.</li>
+  <li><strong>Videos and captions</strong> are not retained after the post completes.</li>
+  <li><strong>Run records</strong> are pruned automatically and contain no personal data
+      beyond what is described above.</li>
+</ul>
+
+<h2>6. Revoking access</h2>
+<p>The operator can disconnect Klippanda Poster at any time from the TikTok app under
+<em>Settings and privacy &rarr; Security &amp; permissions &rarr; Manage app permissions</em>.
+Revoking immediately invalidates the tokens and the app can no longer post. To have any
+remaining locally stored data deleted, write to
+<a href="mailto:zeno89042@gmail.com">zeno89042@gmail.com</a>.</p>
+
+<h2>7. Security</h2>
+<p>The device that runs Klippanda Poster is private and access-controlled, and the approval
+interface is reachable only from that device &mdash; it is not published to the internet.
+No credentials are embedded in any public page or repository. No method of storage is
+perfectly secure, but the surface here is deliberately small: one device, one operator,
+no public endpoint.</p>
+
+<h2>8. Children</h2>
+<p>Klippanda Poster is not directed at children and is not made available to anyone other than
+its operator, who is an adult.</p>
+
+<h2>9. International users</h2>
+<p>Klippanda Poster is operated from Hungary, within the European Union. Because it processes
+only its own operator's data, and that operator is the same person who controls the
+device, no transfer of other people's personal data takes place.</p>
+
+<h2>10. Changes to this policy</h2>
+<p>If this policy changes, the revised version will be published at this address with a
+new effective date.</p>
+
+<h2>11. Contact</h2>
+<p>the owner of the @klippanda_uk YouTube channel &mdash; <a href="mailto:zeno89042@gmail.com">zeno89042@gmail.com</a></p>
+
+<footer>
+  <a href="./index.html">Home</a>
+  <a href="./privacy.html">Privacy Policy</a>
+  <a href="./terms.html">Terms of Service</a>
+  <p style="margin-top:12px">&copy; 2026 the owner of the @klippanda_uk YouTube channel</p>
+</footer>
+</div>
+</body>
+</html>
